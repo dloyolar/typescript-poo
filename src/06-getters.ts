@@ -1,3 +1,9 @@
+// Con get podemos acceder a una propiedad con un alcance privado, podemos obtener los datos de esa propiedad pero no modificarlos o mutarlos.
+
+// Lo podemos acceder como si fuese una propiedad más de la instancia.
+
+// Por definición, todos los getters tienen que retornar algo.
+
 export class myDate {
   constructor(
     public year: number,
