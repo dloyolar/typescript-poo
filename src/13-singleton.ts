@@ -1,5 +1,5 @@
 export class MyService {
-  static instance: MyService | null = null;
+  private static instance: MyService | null = null;
 
   private constructor(private name: string) {}
 
